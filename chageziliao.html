@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style2.css">
+<title>成员注册</title>
+</head>
+
+<body>
+	<div class="content">
+	
+	<form action="#" method="post"/>
+  <h2>修改资料</h2>
+		<div class="right">
+  <p>
+    <span>性质：</span>
+     <input type="radio" name="Nature" checked="checked"/>&nbsp;&nbsp;个人
+   <input type="radio" name="Nature" />&nbsp;&nbsp;公司
+   </p>
+    <p>
+       <span>用户名：</span>
+        <input name="nicheng" type="text" id="yhm" class="yhm" maxlength="6"/>
+    </p>
+     <p>
+     <span>密码：</span>
+        <input type="password"  class="ma" id="ma" name="ma"size="20" />
+    </p>
+    <p>
+     <span>电子邮箱：</span>
+        <input type="email" name="myemail" class="e-mail" id="e-mail" requiredmultiple/>
+    </p>
+     <P>
+		 <span id="id">姓名:</span>
+     <input type="text" class="xingming" id="xingming" name="xing"/>
+     </P>
+		<P>
+		 <span>年龄:</span>
+     <input type="text" class="age" name="age" id="age"/>
+     </P>
+     <p>
+      <span>身份证号：</span>
+      <input type="text" name="card" requiredpattern="^\d{8,18}|[0-9x]{8,18}|[0-9X]{8,18}?$"  title="（必须填写，能够以数字、字母x结尾的短身份证号）"/>
+      </p>
+     <p>
+      <span>手机号码：</span>
+      <input type="tel" name="telphone" pattern="^\d{11}$" required/>
+     </p>
+		<p>
+     <span>邮编：</span>
+			<input type="text" name="postcode" id="postcode" class="postcode"/>
+		</p>
+    <P>
+     <span></span>
+		
+       <input name="btn2" type="button"value="保存"/>
+    </P>
+	</div>
+
+		</form>
+	</div>
+</body>
+</html>

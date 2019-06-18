@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body{ font-size:12px;font-family:"微软雅黑";font-weight:bold;}
+/*重置浏览器的默认样式*/
+body,form,input,h1,p{padding:0;margin:0;}
+/*（3）整体控制表单界面*/
+form{
+width:949px;
+height:687px;
+margin:20px auto;
+padding:168px;
+/*background: url(images/timg.jpg) center center no-repeat;*/
+box-sizing:border-box;
+	
+	opacity: 0.;
+	overflow: hidden;
+}
+/*（4）控制标题和表单控件*/
+h2{
+font-size:24px;
+text-align:center;
+margin:0px auto;
+	margin-top: -30px;
+}
+p{
+height:24px;
+margin-top:15px;
+	margin-left: 5px;
+}
+.advice{height:100px;}
+p span{
+text-align:right;
+width:85px;
+margin-right:15px;
+display:inline-block;
+}
+p input{
+height:24px;
+}
+input{
+/*vertical-align:middle;*/
+resize:none;
+border-radius:5px;
+border: 1px solid rgba(156,152,152,1.00);
+	
+}
+.mgn{height:28px;}
+.btn{
+width:180px;
+height:28px;
+border-radius:5px;
+background:#d9e2eb;
+}
+		input[name="btn2"]{
+			cursor: pointer;
+			width: 50px;
+			margin-left: 50px;/*调整按钮间距*/
+		}
+		.content{
+			
+		}
+		input[name="nicheng"]{
+			border: 3px;
+			
+			border: 1px solid rgba(156,152,152,1.00);
+		}
+		/*input{/*出现了两个input导致了就近选择原则*/
+			
+			/*border: 3px;
+			border: 1px solid rgba(156,152,152,1.00);*/
+	/*	}*/
+		.right{
+			position: absolute;
+			left: 700px;
+		}

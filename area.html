@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+		*{/*去除浏览器莫问样式*/
+			margin: 0;
+			padding: 0;
+			border: 0;
+			list-style: 0;
+		}
+		.main{/*网页大小1024*768px*/
+			/*background: rgba(251,251,251,1.00) center;*/
+			margin: 0 auto;
+			width: 1024px;
+			height: 768px;
+			border: 1px solid  rgba(7,164,20,1.00);
+			background: url(images/denglubeijing~2.jpg);/*wangyebeijing */
+			overflow: hidden
+		}
+		.top{/*第二个篮筐上面部分*/
+			width: 900px;
+			height: 70px;
+			/*border: 1px solid rgba(195,29,32,1.00);*/
+			margin: 0 auto;
+			
+				
+		}
+		.bottom{/*中间部分*/
+			width: 530px;
+			height: 530px;
+			/*border: 1px solid rgba(25,18,114,1.00);*/
+			margin: 0px auto;
+			margin-top: 70px;
+		}
+		/*div img{
+			
+		}*/
+		#tu{
+			margin-left: 100px;
+			margin-top: 70px;
+		}
+		input[name="shuru"]{/*输入框设置*/
+			width: 350px;
+			height: 40px;
+			border-radius: 5px;
+		}
+		input[name="submit"]{/*提交按钮*/
+			width: 100px;
+			height: 40px;
+			border-radius: 5px;
+			font-size: 17px;
+			/*margin-top: 30px 10px;*/
+			margin: 20px;
+			/*background:  rgba(99,90,90,1.00);
+			opacity: 50%;*/
+			cursor: pointer;
+		}
+		input{
+			margin-top: 100px;
+		}
+		.content{/*二维码位置*//*红框位置*/
+			width: 450px;
+			height: 180px;
+			/*border: 1px solid rgba(200,14,17,1.00);*/
+			margin:0px auto;
+			margin-top: 70px;
+			margin-left: -20px;
+		}
+		p{
+			text-align: right;
+			line-height: 50px;
+			
+		}
+		.one{/*第一行自号*/
+			font-size: 14px;
+			margin-right: 80px;
+		}
+		.two{/*第二行自号*/
+			font-style: normal;
+			font-size: 24px;
+			color: rgba(237,11,15,1.00);
+			font-weight: 700;
+		}
+		.tree{/*第三行自号*/
+			font-size: 14px;
+			margin-right: 80px;
+		}
+		.footer{
+			width: 90%;
+			height: 40px;
+			/*border: 1px solid rgba(66,2,4,1.00);*/
+			margin: 0px auto;
+			margin-top: 35px;
+			text-align:  center;
+			font-size: 2px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.cdc{
+			margin-left: 80px;
+			
+		}
+		.ddf{/*注册，登录*/
+			color: #ffffff;
+			text-align: right;
+			margin-top: 30px;
+			font-weight: 600;
+			opacity: 0.5;
+		}
+	</style>
+
+<title>蓝鸥登录</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="top">
+			<img src="images/leaderdex.jpg" width="100" height="80" align="left"/>
+			<div class="ddf">
+				<a href="login.html">注册|登录</a>
+			</div>
+		</div>
+		<div class="bottom">
+			<img id="tu" src="images/images/ndex_03.jpg"  width="150" height="30"/><!--引入LOGO-->
+			<form action="#" method="get">
+				<input type="url" list="url_list" pattern="[a-Za-z]+://[^\s]" name="shuru"/>
+				<datalist id="url_list">
+					<option label="济宁"></option>
+					<option label="济南"></option>
+					<option label="北京"></option>
+					<option label="天津"></option>
+					<option label="上海"></option>
+				</datalist>
+				<input type="button" value="搜 索" name="submit">
+			</form>
+			<div class="content">
+				<div class="cdc">
+			<img src="images/anquanzhongxin.jpg" width="150" height="150" align="left"/><!--引入二维码-->
+					</div>
+				<p class="one">新用户首次登录</p>
+				<p class="two">领0.1元现金红包</p>
+				<p class="tree">赶快加入我们吧</p>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<a href="#">联系我们</a>|<a href="#">服务条款和协议</a>|<a href="#">加入我们</a>|<a href="#">失信人员查询</a><br/>
+			<a href="#">互联网药品信息服务资格证书:(沪)-经营性-2016-0011</a> |<a href="#"> 增值电信业务许可证 : 沪B2-20150033</a> |<a href="#"> 沪I</a>
+		</div>
+	</div>
+</body>
+</html>
